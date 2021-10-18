@@ -1,3 +1,5 @@
+- fix issue with empty action chains getting deleted too early (bsc#1191377)
+
 -------------------------------------------------------------------
 Tue Nov 16 12:58:01 CET 2021 - jgonzalez@suse.com
 
