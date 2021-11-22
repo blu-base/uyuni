@@ -1,3 +1,5 @@
+- fix actionchain stuck in pending/picked up (bsc#1189561)
+
 -------------------------------------------------------------------
 Fri Dec 03 12:21:41 CET 2021 - jgonzalez@suse.com
 
