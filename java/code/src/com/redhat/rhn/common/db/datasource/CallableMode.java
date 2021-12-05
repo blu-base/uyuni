@@ -14,6 +14,8 @@
  */
 package com.redhat.rhn.common.db.datasource;
 
+import org.hibernate.Session;
+
 import java.util.Map;
 
 /**
@@ -22,8 +24,8 @@ import java.util.Map;
  */
 public class CallableMode extends BaseMode {
 
-    /*package*/ CallableMode(ParsedMode parsedMode) {
-        super(parsedMode);
+    /*package*/ CallableMode(Session session ,ParsedMode parsedMode) {
+        super(session, parsedMode);
     }
 
     /**
